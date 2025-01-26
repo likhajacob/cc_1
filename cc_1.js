@@ -38,4 +38,13 @@ console.log("After adding interest:", accountBalance);
 accountBalance /= 2; // Split the balance in half
 console.log("After splitting balance:", accountBalance);
 
+// Task 4 - String Data Type
+
+let customerName = "Skyler Hope"; // Customer's name as a string
+
+// Create a personalized welcome message
+let welcomeMessage = "Hello, " + customerName + "! Welcome to our platform.";
+console.log(welcomeMessage);
+
+
 
