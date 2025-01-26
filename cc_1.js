@@ -22,4 +22,20 @@ console.log("Product Name:", productName, "- Type:", typeof productName);
 console.log("Product Price:", productPrice, "- Type:", typeof productPrice);
 console.log("Is Available:", isAvailable, "- Type:", typeof isAvailable);
 
+// Task 3 - Number Data Type
+let accountBalance = 5000; // Initial balance in dollars
+
+// Perform basic arithmetic operations
+accountBalance += 500; // Deposit $500
+console.log("After deposit:", accountBalance);
+
+accountBalance -= 200; // Withdraw $200
+console.log("After withdrawal:", accountBalance);
+
+accountBalance *= 1.05; // Add 5% interest
+console.log("After adding interest:", accountBalance);
+
+accountBalance /= 2; // Split the balance in half
+console.log("After splitting balance:", accountBalance);
+
 
