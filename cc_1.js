@@ -46,5 +46,18 @@ let customerName = "Skyler Hope"; // Customer's name as a string
 let welcomeMessage = "Hello, " + customerName + "! Welcome to our platform.";
 console.log(welcomeMessage);
 
+// Task 5 - Boolean Data Type
+// Declare a variable for login status
+let isLoggedIn = true; // Boolean indicating if the user is logged in
+
+// Check access conditions
+if (isLoggedIn && isActive) {
+    console.log("Access granted: Welcome to the employee portal.");
+} else if (!isLoggedIn) {
+    console.log("Access denied: Please log in to continue.");
+} else if (!isActive) {
+    console.log("Access denied: Your account is inactive.");
+}
+
 
 
